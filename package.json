@@ -15,8 +15,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix",
-      "npm test --findRelatedTests --bail"
+      "npm run lint --fix",
+      "npm run test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
@@ -47,7 +47,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^6.0.0",
     "jest": "^27.0.5",
     "jest-styled-components": "^7.0.4",
     "prettier": "2.3.1",
